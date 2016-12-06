@@ -1,0 +1,6 @@
+TAIGA_HOSTNAME=chase.ou.carrio.me
+TAIGA_SECRET_KEY=y51zsOsV8MaOftMnd6iF
+TAIGA_DB_NAME=taiga
+TAIGA_DB_HOST=tom.ou.carrio.me
+TAIGA_DB_USER=taiga
+TAIGA_DB_PASSWORD=r7OUeKlQ
