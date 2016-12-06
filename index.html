@@ -16,20 +16,15 @@
       <a href="http://gogs.carrio.me" class="btn">Gogs</a>
       <a href="http://drone.carrio.me" class="btn">Drone</a>
       <a href="http://drone.carrio.me:8181" class="btn">Taiga</a>
+      <a href="https://github.com/tcarrio/cit348-devops" class="btn">GitHub</a>
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="devops" class="anchor" href="#devops" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>devops</h1>
-
-<p>DevOps Overview</p>
-
 <p>Currently the project consists of two servers with a shared PostgreSQL service with separate databases for the Gogs and Taiga services.</p>
 
 <p>PostgreSQL and Gogs are hosted on tom.ou.carrio.me while Taiga{-front,-back,-events} is hosted on chase.ou.carrio.me</p>
 
-<h3>
-<a id="a-visual-representation-of-the-stack" class="anchor" href="#a-visual-representation-of-the-stack" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Visual Representation of the Stack</h3>
+<h3>A Visual Representation of the Stack</h3>
 
 <p><img src="assets/stack-diagram.png" alt="DevOps Stack"></p>
 
@@ -40,6 +35,17 @@
 <p>These services can be visited at the links as mentioned at the top!</p>
 
 <p>All relevant scripts and files are available under the <code>/assets/code</code> directory, and are simply the <code>tom_backup</code> and <code>chase_backup</code> directories merged for ease of access. </p>
+
+<h3>Some Examples of the Services In Action</h3>
+
+<p>In Gogs, perusing a mirrored repository from GitHub</p>
+<p><img src="assets/gogs.png" alt="Gogs"></p>
+
+<p>In Drone, after setting the build settings for projects under user tcarrio, they're now listed for ease of access</p>
+<p><img src="assets/drone.png" alt="Drone"></p>
+
+<p>Taiga, still being difficult with the PostgreSQL backend.</p>
+<p><img src="assets/taiga.png" alt="Taiga"></p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/tcarrio/cit348-devops">DevOps Stack - CIT348</a> is maintained by <a href="https://github.com/tcarrio">tcarrio</a>.</span>
