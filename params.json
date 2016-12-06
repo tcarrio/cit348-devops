@@ -1,6 +1,6 @@
 {
-  "name": "Devops",
+  "name": "DevOps Stack - CIT348",
   "tagline": "DevOps Overview",
-  "body": "# DevOps Overview\r\n\r\nA Project by Tom Carrio and Chase Ehlert",
+  "body": "# devops\r\nDevOps Overview\r\n\r\nCurrently the project consists of two servers with a shared PostgreSQL service with separate databases for the Gogs and Taiga services.\r\n\r\nPostgreSQL and Gogs are hosted on tom.ou.carrio.me while Taiga{-front,-back,-events} is hosted on chase.ou.carrio.me\r\n\r\n### A Visual Representation of the Stack\r\n\r\n![DevOps Stack](/assets/stack-diagram.png)\r\n\r\nThe `tom.ou.carrio.me` server is running both the PostgreSQL service as well as Gogs. The PostgreSQL service has 3 databases that have been initialized for all services in the stack, `drone`, `taiga`, and `gogs`. \r\n\r\nThe `chase.ou.carrio.me` server is running Docker containers for the Taiga stack and Drone. The Taiga stack includes Taiga-front-dist, Taiga-back, Taiga-events, Redis, Rabbitmq, and Celery. \r\n\r\nThese services can be visited at the links as mentioned at the top!\r\n\r\nAll relevant scripts and files are available under the `/assets/code` directory, and are simply the `tom_backup` and `chase_backup` directories merged for ease of access. \r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
